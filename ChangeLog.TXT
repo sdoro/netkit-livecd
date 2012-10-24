@@ -6,3 +6,6 @@ second commit
 
 another test
 
+Now we change only in branch 'develop' (I hope)
+
+
