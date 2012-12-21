@@ -1,4 +1,4 @@
-### reset postgres paswword
+### reset postgres password
 
 Per cambiare password all'utente postgress:
 
@@ -9,4 +9,5 @@ Per cambiare password all'utente postgress:
 		\q
 
 
-<script src="https://gist.github.com/4054136.js"></script>
+[gist](https://gist.github.com/4054136)
+
