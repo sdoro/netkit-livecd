@@ -1,48 +1,61 @@
-;; Devil's DNS
+;; Devil's DNS configuration file
+
 (begin
+
 ;;(debug)
-(if (contains (application_name) "pc2")
-  (begin
-      (geometry "484x316+532+398")
-    )
-  )
 
-(if (contains (application_name) "pc1")
-  (begin
-      (geometry "484x316+4+398")
-    )
-  )
-
-(if (contains (application_name) "dnslug")
-  (begin
-      (geometry "484x69+4+270")
-    )
-  )
-
-(if (contains (application_name) "dnsnano")
-  (begin
-      (geometry "484x69+532+270")
-    )
-  )
-
-(if (contains (application_name) "dnsnet")
-  (begin
-      (geometry "484x69+520+144")
-    )
-  )
-
-(if (contains (application_name) "dnsorg")
-  (begin
-      (geometry "484x69+15+144")
-    )
-  )
-
+;; ---------- root ----------------------------------------------------
 (if (contains (application_name) "dnsroot")
   (begin
-      (geometry "484x69+262+42")
+      (geometry "484x108+262+42")
     )
   )
+
+;; ---------- gTLD ----------------------------------------------------
+(if (contains (application_name) "dnsnet")
+  (begin
+      (geometry "484x180+520+184")
+    )
+  )
+
+;; ---------- gTLD ----------------------------------------------------
+(if (contains (application_name) "dnsorg")
+  (begin
+      (geometry "484x180+15+184")
+    )
+  )
+
+;; ---------- SLD -----------------------------------------------------
+(if (contains (application_name) "dnslug")
+  (begin
+      (geometry "484x200+4+400")
+    )
+  )
+
+;; ---------- SLD -----------------------------------------------------
+(if (contains (application_name) "dnsnano")
+  (begin
+      (geometry "484x200+532+400")
+    )
+  )
+
+;; ---------- host ----------------------------------------------------
+(if (contains (application_name) "pc2")
+  (begin
+      (geometry "484x316+532+640")
+    )
+  )
+
+;; ---------- host ----------------------------------------------------
+(if (contains (application_name) "pc1")
+  (begin
+      (geometry "484x316+4+640")
+    )
+  )
+
 
 
 
 )
+
+;; bot
