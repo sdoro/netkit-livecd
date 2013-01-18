@@ -1,0 +1,10 @@
+
+pc1: dnslug
+pc2: dnsnano
+
+dnslug: dnsorg
+dnsnano: dnsnet
+
+dnsorg: dnsroot
+dnsnet: dnsroot
+
