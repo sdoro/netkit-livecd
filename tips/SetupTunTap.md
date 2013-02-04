@@ -7,11 +7,12 @@ with the host machine where TAP-ADDRESS=10.0.0.1 and GUEST-ADDRESS=10.0.0.2:
 
 		lab.conf
 		[...]
-		vm[0]=tap,10.0.0.1,10.0.1.2
+		vm[0]=tap,10.0.0.1,10.0.0.2
 		[...]
 
 
-Display actual Natting in 'host':
+After the 'lstart' command it is possible to display actual Natting in
+'host' with:
 
 	# iptables -t nat -L POSTROUTING
 
