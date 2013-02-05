@@ -16,3 +16,27 @@ After the 'lstart' command it is possible to display actual Natting in
 
 	# iptables -t nat -L POSTROUTING
 
+
+### Low lewel details:
+
+
+Topology:
+
+           +---- eth0
+           |
+     Host -+                            +- guest
+           |                            |
+           +---- tap0          eth0 ----+
+
+
+    host$ sudo tunctl -u `whoami`
+    Set 'tap0' persistent and owned by uid 1000
+
+    host# ifconfig tap0 $TAP-ADDRESS; \
+          echo "1" > /proc/sys/net/ipv4/ip_forward; \
+          iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+
+    guest# ifconfig eth0 $GUEST-ADDRESS up
+           route add default gateway $TAP-ADDRESS
+
+
