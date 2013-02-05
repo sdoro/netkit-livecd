@@ -1,4 +1,4 @@
-### Setup Tun/Tap
+### Setup Tun/Tap (netkit mode)
 
 Read instructions in 'Networking settings' paragraph inside 'man vstart'.
 
@@ -17,10 +17,11 @@ After the 'lstart' command it is possible to display actual Natting in
 	# iptables -t nat -L POSTROUTING
 
 
-### Low lewel details:
+### Setup Tun/Tap (shell command mode):
 
 
 Topology:
+
 
            +---- eth0
            |
@@ -29,6 +30,8 @@ Topology:
            +---- tap0          eth0 ----+
 
 
+
+Shell commands:
 
 
     host$ sudo tunctl -u `whoami`
