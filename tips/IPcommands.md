@@ -1,7 +1,7 @@
 ### IP commands
 
 Read instructions in 
-[IP Command Reference](https://raw.github.com/sdoro/android/master/tips/docs/ip-cref.pdf).
+[IP Command Reference](https://github.com/sdoro/netkit-livecd/blob/master/tips/docs/ip-cref.pdf?raw=true).
 
 
 
