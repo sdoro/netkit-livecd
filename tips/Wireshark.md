@@ -9,6 +9,6 @@ Analize -> Display Filters...
 
 View -> Coloring Rules...
 
-[color example](https://github.com/sdoro/netkit-livecd/blob/master/tips/files/ip-cref.pdf?raw=true).
+[color example](https://github.com/sdoro/netkit-livecd/blob/master/tips/files/colorfilters?raw=true).
 
 
