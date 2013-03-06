@@ -1,0 +1,15 @@
+"from sw1" (sll.src.eth == 00:00:00:00:01:01 or sll.src.eth == 00:00:00:00:01:02) and stp
+"from sw2" (sll.src.eth == 00:00:00:00:02:04 or sll.src.eth == 00:00:00:00:02:03 or sll.src.eth == 00:00:00:00:02:02 or sll.src.eth == 00:00:00:00:02:01) and stp
+"from sw3" (sll.src.eth == 00:00:00:00:03:01 or sll.src.eth == 00:00:00:00:03:02) and stp
+"from sw4" (sll.src.eth == 00:00:00:00:04:01 or sll.src.eth == 00:00:00:00:04:02) and stp
+"from sw5" (sll.src.eth == 00:00:00:00:05:04 or sll.src.eth == 00:00:00:00:05:03 or sll.src.eth == 00:00:00:00:05:02 or sll.src.eth == 00:00:00:00:05:01) and stp
+"from sw6" (sll.src.eth == 00:00:00:00:06:01 or sll.src.eth == 00:00:00:00:06:02) and stp
+"Topology Configuration Notify" stp.type == 0x80
+"Root Path Cost (300)" (stp.root.cost == 300) and stp
+"Root Path Cost (200)" (stp.root.cost == 200) and stp
+"Root Path Cost (100)" (stp.root.cost == 100) and stp
+"Root Path Cost (0)" (stp.root.cost == 0) and stp
+"Topology Change Ack" (stp.flags.tcack == 1) and stp
+"no Topology Change Ack" (stp.flags.tcack == 0) and stp
+"Topology Change" (stp.flags.tc == 1) and stp
+"no Topology Change" (stp.flags.tc == 0) and stp
