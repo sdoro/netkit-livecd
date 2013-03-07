@@ -1,14 +1,14 @@
 ### Wireshark filters 
 
-Analize -> Display Filters...
+Select Analize -> Display Filters...
 
-[filter example](https://github.com/sdoro/netkit-livecd/blob/master/tips/files/dfilters?raw=true).
+Usually stored in ~/.wireshark/dfilters [filters example](https://github.com/sdoro/netkit-livecd/blob/master/tips/files/dfilters?raw=true).
 
 
 ### Wireshark colors
 
-View -> Coloring Rules...
+Select View -> Coloring Rules...
 
-[color example](https://github.com/sdoro/netkit-livecd/blob/master/tips/files/colorfilters?raw=true).
+Usually stored in ~/.wireshark/colorfilters [colorfilters example](https://github.com/sdoro/netkit-livecd/blob/master/tips/files/colorfilters?raw=true).
 
 

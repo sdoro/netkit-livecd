@@ -13,3 +13,11 @@
 "no Topology Change Ack" (stp.flags.tcack == 0) and stp
 "Topology Change" (stp.flags.tc == 1) and stp
 "no Topology Change" (stp.flags.tc == 0) and stp
+"LAN F" (sll.src.eth == 00:00:00:00:03:02 or sll.src.eth == 00:00:00:00:06:02) and stp
+"LAN H" (sll.src.eth == 00:00:00:00:05:04 or sll.src.eth == 00:00:00:00:06:01) and stp
+"LAN B" (sll.src.eth == 00:00:00:00:02:04 or sll.src.eth == 00:00:00:00:03:01) and stp
+"LAN G" (sll.src.eth == 00:00:00:00:04:02 or sll.src.eth == 00:00:00:00:05:01) and stp
+"LAN D" (sll.src.eth == 00:00:00:00:05:02 or sll.src.eth == 00:00:00:00:02:02) and stp
+"LAN E" (sll.src.eth == 00:00:00:00:05:03 or sll.src.eth == 00:00:00:00:02:03) and stp
+"LAN C" (sll.src.eth == 00:00:00:00:01:01 or sll.src.eth == 00:00:00:00:04:01) and stp
+"LAN A" (sll.src.eth == 00:00:00:00:01:02 or sll.src.eth == 00:00:00:00:02:01) and stp
