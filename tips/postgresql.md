@@ -1,6 +1,6 @@
 ### Reset postgres password
 
-Per cambiare password all'utente postgress:
+Per cambiare password all'utente postgress (con server attivato):
 
 
 	# sudo su - postgres
