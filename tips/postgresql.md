@@ -34,9 +34,11 @@ con -U l'utente del database e con -d il nome del database.
 Se lo startup del server non funziona e risulta un errore di SHMMAX
 basta dare il comando:
 
-	# echo 39321600 > /proc/sys/kernel/shmmax
+	# echo 50331648 > /proc/sys/kernel/shmmax
 
-e poi far partire il servizio postgresql:
+che imposta la dimensione massima di un singolo segmento di
+memoria condivisa a 48MB; poi occorre far ripartire il
+servizio postgresql:
 
 	# /etc/init.d/postgresql start
 
