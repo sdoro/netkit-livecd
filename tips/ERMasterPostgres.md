@@ -1,18 +1,12 @@
-### Setup ERMaster (Eclipse Plugin)
+### Setup ERMaster (Eclipse Plugin) to connect Heroku (Postgres) database
 
-Per installare il plugin di Eclipse dedicato alla diagrammazione
-Entity Relation (ER) segui la sequenza di screenShot:
+A partire da un diagramma ER tasto destro ...
 
-![screenShot](https://raw.github.com/sdoro/netkit-livecd/master/tips/img/ERMaster-01.png)
+![screenShot](https://raw.github.com/sdoro/netkit-livecd/master/tips/img/ERMaster-postgres-01.png.png)
 
-![screenShot](https://raw.github.com/sdoro/netkit-livecd/master/tips/img/ERMaster-02.png)
+![screenShot](https://raw.github.com/sdoro/netkit-livecd/master/tips/img/ERMaster-postgres-02.png.png)
 
-![screenShot](https://raw.github.com/sdoro/netkit-livecd/master/tips/img/ERMaster-03.png)
+![screenShot](https://raw.github.com/sdoro/netkit-livecd/master/tips/img/ERMaster-postgres-03.png.png)
 
-![screenShot](https://raw.github.com/sdoro/netkit-livecd/master/tips/img/ERMaster-04.png)
-
-![screenShot](https://raw.github.com/sdoro/netkit-livecd/master/tips/img/ERMaster-05.png)
-
-![screenShot](https://raw.github.com/sdoro/netkit-livecd/master/tips/img/ERMaster-06.png)
-
+![screenShot](https://raw.github.com/sdoro/netkit-livecd/master/tips/img/ERMaster-postgres-04.png.png)
 
