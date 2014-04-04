@@ -1,14 +1,26 @@
 ### Setup for django
 
-Per installare tutto il software per trasformare la vostra
-penna in ambiente di sviluppo django + Heroku lanciate i comandi:
+
+Per installare tutto il software per trasformare la tua
+penna in ambiente di sviluppo django + Heroku lancia i comandi:
 
 	cd /tmp
+	# export https_proxy="http://proxy.zuccante.it:8080/"
 	wget --no-check-certificate https://s3-eu-west-1.amazonaws.com/zuccalab/knoppix/run.sh
 	chmod a+x /tmp/run.sh
 
-Poi dovete lanciare il comando (che scarica circa 46MB di aggiornamenti per poi applicarli):
+Poi lancia il comando (che scarica e applica circa 46MB di aggiornamenti):
 
-	su -c /tmp/run.sh
+	su -
+	# export https_proxy="http://proxy.zuccante.it:8080/"
+	/tmp/run.sh
 
+	ora con molta calma aspetta la terminazione (anche 5 minuti) del comando:
+
+	halt
+
+
+Nel caso di installazione a scuola, data la presenza del proxy,
+occorre togliere i commenti nei due posti dove viene impostata la
+variabile https_proxy.
 
