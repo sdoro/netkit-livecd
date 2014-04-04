@@ -15,7 +15,7 @@ Poi lancia il comando (che scarica e applica circa 46MB di aggiornamenti):
 	# export https_proxy="http://proxy.zuccante.it:8080/"
 	/tmp/run.sh
 
-	ora con molta calma aspetta la terminazione (anche 5 minuti) del comando:
+ora con molta calma aspetta la terminazione (anche 5 minuti) del comando:
 
 	halt
 
