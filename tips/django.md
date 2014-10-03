@@ -6,14 +6,14 @@ penna in ambiente di sviluppo django + Heroku lancia i comandi:
 
 	cd /tmp
 	# export https_proxy="http://proxy.zuccante.it:8080/"
-	wget --no-check-certificate https://s3-eu-west-1.amazonaws.com/zuccalab/knoppix/run.sh
-	chmod a+x /tmp/run.sh
+	wget --no-check-certificate https://github.com/sdoro/netkit-livecd/blob/master/tips/files/mk-django.sh
+	chmod a+x /tmp/mk-django.sh
 
 Poi lancia il comando (che scarica e applica circa 46MB di aggiornamenti):
 
 	su -
 	# export https_proxy="http://proxy.zuccante.it:8080/"
-	/tmp/run.sh
+	/tmp/mk-django.sh
 
 ora con molta calma aspetta la terminazione (anche 5 minuti) del comando:
 
