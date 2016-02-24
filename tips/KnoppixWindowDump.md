@@ -1,7 +1,7 @@
 ### Knoppix Window Dump
 
 Per poter fare uno screenshot di una finestra o dell'intero desktop si può
-usare l'utility xwd (eventualmente fare man xwd). Ad esempio:
+usare l'utility xwd (eventualmente fare man xwd). Ad esempioi da root:
 
 		sleep 3; xwd -out /tmp/ss.xwd
 
