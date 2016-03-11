@@ -27,7 +27,7 @@ Topology:
            |
      Host -+                            +- guest
            |                            |
-           +---- tap0          eth0 ----+
+           +---- tap0    --    eth0 ----+
 
 
 
